@@ -1,0 +1,32 @@
+{
+  "name": "@alu0100945850/node-spotify",
+  "version": "1.0.0",
+  "description": "simple spotify client for node",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0100945850/Spotify-Node.git"
+  },
+  "keywords": [
+    "node",
+    "Spotify",
+    "Universidad",
+    "de",
+    "La",
+    "Laguna"
+  ],
+  "author": "Cristian Abrante <alu0100945850@ull.edu.es>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100945850/Spotify-Node/issues"
+  },
+  "homepage": "https://github.com/alu0100945850/Spotify-Node#readme",
+  "devDependencies": {
+    "spotify-web-api-node": "^3.1.1",
+    "table": "latest"
+  }
+}
