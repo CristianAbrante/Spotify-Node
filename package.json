@@ -1,6 +1,6 @@
 {
   "name": "@alu0100945850/node-spotify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple spotify client for node",
   "main": "lib/index.js",
   "scripts": {
@@ -34,6 +34,9 @@
   },
   "dependencies": {
     "deasync": "^0.1.13",
-    "table": "latest"
+    "table": "latest",
+    "spotify-web-api-node": "^3.1.1",
+    "opn": "^5.3.0",
+    "lyric-get": "^1.0.3"
   }
 }
