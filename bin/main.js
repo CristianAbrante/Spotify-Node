@@ -1,5 +1,9 @@
 
 let Spotify = require('../lib/index.js');
 
-//Spotify.getAlbumInfo('divide', 'ed sheeran');
-Spotify.getAlbumTracks('divide', 'ed sheeran');
+//let data = Spotify.getAlbumInfo('thriller');
+//console.log(data);
+Spotify.logAlbumInfo('el polvorete');
+console.log('should be logged after info');
+
+//Spotify.getAlbumTracks('divide', 'ed sheeran');

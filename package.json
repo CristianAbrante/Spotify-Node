@@ -28,5 +28,8 @@
   "devDependencies": {
     "spotify-web-api-node": "^3.1.1",
     "table": "latest"
+  },
+  "dependencies": {
+    "deasync": "^0.1.13"
   }
 }
