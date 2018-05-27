@@ -33,6 +33,7 @@
     "table": "latest"
   },
   "dependencies": {
-    "deasync": "^0.1.13"
+    "deasync": "^0.1.13",
+    "table": "latest"
   }
 }
