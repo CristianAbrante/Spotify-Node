@@ -1,4 +1,7 @@
 
+const insp= require("util").inspect;
+let ins = (x) => insp(x, {depth:null});
+
 let Spotify = require('../lib/index.js');
 
 //let data = Spotify.logAlbumInfo('divide');
@@ -6,8 +9,18 @@ let Spotify = require('../lib/index.js');
 //Spotify.logAlbumInfo('el polvorete');
 
 
-Spotify.logArtistAlbums('Ed Sheeran');
+//Spotify.logArtistAlbums('Edjkadfs');
 
+//Spotify.logAlbumInfo('love');
+
+// Spotify.logArtistTopTracks('david bustamante')
+
+//console.log(data);
+
+//Spotify.playTrackPreview('the man who can\'t be moved', 'the Script');
+
+let lyrics = Spotify.getLyrics("Invisible", 'Malú');
+console.log(lyrics);
 console.log('should be logged after info');
 
 

@@ -27,6 +27,9 @@
   "homepage": "https://github.com/alu0100945850/Spotify-Node#readme",
   "devDependencies": {
     "spotify-web-api-node": "^3.1.1",
+    "opn": "^5.3.0",
+    "deasync": "^0.1.13",
+    "lyric-get": "^1.0.3",
     "table": "latest"
   },
   "dependencies": {
