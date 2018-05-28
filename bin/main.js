@@ -19,9 +19,11 @@ let Spotify = require('../lib/index.js');
 
 //Spotify.playTrackPreview('the man who can\'t be moved', 'the Script');
 
-let lyrics = Spotify.getLyrics("Invisible", 'Malú');
-console.log(lyrics);
-console.log('should be logged after info');
+Spotify.logAlbumTracks('science & faith', 'the script');
+
+//let lyrics = Spotify.getLyrics("Invisible", 'Malú');
+//console.log(lyrics);
+//console.log('should be logged after info');
 
 
 
