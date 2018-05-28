@@ -5,4 +5,4 @@ This is an auxiliary *synchronous* module used to retrieve data from the Spotify
 To implement the functions, the current thread have to be blocked untill promises are completed.
 
 ## Documentation
-The documentation is in this link: 
+The documentation is in this link: [https://alu0100945850.github.io/Spotify-Node/.](https://alu0100945850.github.io/Spotify-Node/.)
